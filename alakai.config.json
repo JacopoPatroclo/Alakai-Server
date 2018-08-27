@@ -1,0 +1,18 @@
+{
+  "admin": {
+    "default": {
+      "email": "admin@admin.com",
+      "password": "Test123"
+    }
+  },
+  "server": {
+    "domain": "http://your.domain.com"
+  },
+  "uploadDir": "./uploads",
+  "languages": [
+    "Italian",
+    "English",
+    "French",
+    "Spanish"
+  ]
+}

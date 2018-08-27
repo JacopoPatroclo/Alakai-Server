@@ -1,0 +1,41 @@
+{
+  "name": "starter-4-master",
+  "version": "1.0.0",
+  "description": "A starter for nodejs server with rest and graphql logger and auth0 setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "export NODE_ENV='test' && eslint ./server && mocha ./tests",
+    "lint": "eslint ./server",
+    "only-test": "export NODE_ENV='test' && mocha ./tests"
+  },
+  "author": "Jacopo Martinelli",
+  "license": "ISC",
+  "dependencies": {
+    "@types/joi": "^13.0.8",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "colors": "^1.3.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "express-jwt": "^5.3.1",
+    "graphql": "^0.13.2",
+    "joi": "^13.4.0",
+    "jsonwebtoken": "^8.2.2",
+    "morgan": "^1.9.0",
+    "multer": "^1.3.1",
+    "sequelize": "^4.37.10",
+    "sequelize-cli": "^4.0.0",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5",
+    "supertest": "^3.1.0"
+  }
+}
